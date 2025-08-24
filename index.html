@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curriculum Vitae of Fredy Quintero, a Computer Engineer.">
+
     <title>Fredy Quintero | Curriculum</title>
+
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="./assets/bracket.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"/>
-    <link rel="shortcut icon" href="./assets/bracket.png" type="image/x-icon">
+
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/6dc81ce773.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container" id="resume">
@@ -22,22 +26,23 @@
                 </div>
                 <div class="container-name my-4 text-center">
                     <h1 id="name">Fredy H. Quintero Salazar</h1>
+                    <p id="degree">Computer Engineer</p>
                 </div>
                 <div class="social-media">
                     <ul class="list-unstyled list-inline text-center">
                         <li class="list-inline-item">
                             <a href="https://www.instagram.com/fredy_0816/" title="Follow me on Instagram" class="text-white text-decoration-none" target="_blank">
-                                <img class="social-icon" src="./assets/instagram.svg" alt="codepen"/>
+                                <i class="fab fa-instagram social-icon" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="https://github.com/Fredy034" title="Follow me on GitHub" class="text-white text-decoration-none" target="_blank">
-                                <img class="social-icon" src="./assets/github.svg" alt="github"/>
+                                <i class="fab fa-github social-icon" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="https://www.linkedin.com/in/fredy-hernando-quintero-salazar-135a401ab" title="Follow me on LinkedIn" class="text-white text-decoration-none" target="_blank">
-                                <img class="social-icon" src="./assets/linkedin.svg" alt="linkedin"/>
+                                <i class="fab fa-linkedin social-icon" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>
@@ -47,6 +52,9 @@
                         <ul class="navigation nav flex-column list-unstyled main-menu text-center">
                             <li>
                                 <a class="link-nav left text-white text-decoration-none" href="#about">About me</a>
+                            </li>
+                            <li>
+                                <a class="link-nav left text-white text-decoration-none" href="#experience">Experience</a>
                             </li>
                             <li>
                                 <a class="link-nav left text-white text-decoration-none" href="#skills">Skills</a>
@@ -63,11 +71,16 @@
                             <li>
                                 <a class="link-nav left text-white text-decoration-none" href="#interests">Interests</a>
                             </li>
+                            <li>
+                                <a class="link-contact btn-light text-decoration-none" role="button" href="mailto:fredy034@hotmail.com">Contact me</a>
+                            </li>
+                            <li>
+                                <div class="container-button d-flex justify-content-center">
+                                    <a target="_blank" href="./assets/CV - Fredy Quintero_ES.pdf" class="link-contact btn-light text-decoration-none" role="button">Download CV</a>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
-                    <div class="container-button d-flex justify-content-center">
-                        <a class="link-contact btn-light text-decoration-none" role="button" href="mailto:fredy034@hotmail.com">Contact me</a>
-                    </div>
                 </div>
             </div>
             <div class="main-content col mx-auto">
@@ -76,103 +89,157 @@
                         <div class="bar"></div>
                     </div>
                 </div>
+
                 <section id="about" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2v6z" fill="#0092ca"/><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg>
-                        <h3 class="title">About me</h3>
+                        <i class="mr-1 fa-solid fa-user"></i>
+                        <h2 class="title">About me</h2>
                     </div>
                     <div class="description">
-                        <p>I am passionate about learning new technologies and I am willing to work hard to develop my skills and knowledge. I am an innovative, persistent, dedicated, proactive person with the ability to work in a team and with a problem-solving mindset, allowing me to develop skills to work in high-pressure environments and to adapt quickly to different situations. </p> 
-                        <p>Skills: Optimistic, organized, leadership, teamwork, eager to learn, communication.</p>
-                    </div>
-                    <div class="info">
-                        <span><strong>Email: </strong>fredy034@hotmail.com</span>
+                        <p>I'm Fredy Quintero, and I'm interested in high-impact projects that will allow me to combine differents frameworks and technologies, and also, learn a lot. I'm an education enthusiastic, so I'm constantly learning that help me improve my self often. I'm always looking for new challenges and looking forward meeting new people.</p> 
+                        <p>Thanks to my creativity, my attention to detail and my determination, I realized that I have a great talent for developing web applications. I'm fascinated by this great world of technologies and possibilities, and I am sure that I will be able to create incredible projects both professionally and personally with you.</p>
+                        <p>Soft skills: Optimistic, organized, leadership, teamwork, eager to learn, communication.</p>
                     </div>
                 </section>
+
+                <section id="experience" class="p-5">
+                    <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
+                        <i class="mr-1 fa-solid fa-briefcase"></i>
+                        <h2 class="title">Experience</h2>
+                    </div>
+                    <div class="timeline">
+                        <div class="education">
+                            <div class="education-description">
+                                <h3 class="title-education font-weight-bold">IT Architecture Intern - Postobón S.A.</h3>
+                                <p class="date">02/2025 - 08/2025</p>
+                                <p class="school">Supported the IT department in various strategic initiatives:</p>
+                                <ul class="ml-5"> 
+                                    <li>Participated in the development of the internal “IT Needs Managment” application (Angular, .NET Core, SQL Server, Azure DevOps), focusing on feature implementation, production deployment, and end-user training.</li>
+                                    <li>Contributed to “DSD Master Data”, implementing Azure B2C with Angular and developing both frontend and backend in .NET Core, integrated with SQL Server and SAP HANA.</li>
+                                    <li>Assisted in migrating the “Physical Inventory Optimization” project from Angular v14 to v19, ensuring compatibility and stability.</li>
+                                    <li>Took part in Phase 1 of “At Your Service” (Angular 19, .NET Core 8, SQL Server), working under Scrum methodology and implementing new features and Azure B2C integrations.</li>
+                                    <li>Provided support for RFI and RFP processes to evaluate and select technology vendors.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="skills" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><g fill="none"><path d="M10 20l4-16m4 4l4 4l-4 4M6 16l-4-4l4-4" stroke="#0092ca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg>
-                        <h3 class="title">Skills</h3>
+                        <i class="mr-1 fa-solid fa-crosshairs"></i>
+                        <h2 class="title">Skills</h2>
                     </div>
                     <div class="content mt-2">
-                        <h4 class="title-skills">Languages</h4>
+                        <h3 class="title-skills">Languages, Frameworks & Libraries.</h3>
                         <div class="row">
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/python.svg" title="Python" alt="Python" width="45"/>
+                                <img class="m-3" src="./assets/skills/html5.svg" title="HTML5" alt="HTML5" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/java.svg" title="Java" alt="Java" width="45"/>
+                                <img class="m-3" src="./assets/skills/css_old.svg" title="CSS3" alt="CSS3" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/csharp.svg" title="C#" alt="Csharp" width="45"/>
+                                <img class="m-3" src="./assets/skills/javascript.svg" title="JavaScript" alt="JavaScript" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/html5.svg" title="HTML5" alt="HTML5" width="45"/>
+                                <img class="m-3" src="./assets/skills/java.svg" title="Java" alt="Java" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/css3.svg" title="CSS3" alt="CSS3" width="45"/>
+                                <img class="m-3" src="./assets/skills/python.svg" title="Python" alt="Python" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/javascript.svg" title="JavaScript" alt="JavaScript" width="45"/>
+                                <img class="m-3" src="./assets/skills/typescript.svg" title="TypeScript" alt="TypeScript" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/php.svg" title="PHP" alt="PHP" width="55"/>
+                                <img class="m-3" src="./assets/skills/csharp.svg" title="C#" alt="Csharp" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/React_dark.svg" title="React & React Native" alt="React & React Native" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/angular.svg" title="Angular" alt="Angular" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/nodejs.svg" title="Node JS" alt="Node JS" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/net-core.svg" title=".NET Core" alt=".NET Core" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/tailwindcss.svg" title="Tailwind CSS" alt="Tailwind CSS" width="45" height="45"/>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="content mt-2">
-                        <h4 class="title-skills">Frameworks</h4>
-                        <div class="row">
-                            <div class="skill-icon">
-                                <img class="m-3" src="./assets/react.svg" title="React" alt="React" width="45"/>
-                            </div>
-                            <div class="skill-icon">
-                                <img class="m-3" src="./assets/angular.svg" title="Angular" alt="Angular" width="45"/>
-                            </div>
-                        </div>
-                    </div> -->
+
                     <div class="content mt-2">
-                        <h4 class="title-skills">Tools</h4>
+                        <h3 class="title-skills">Databases.</h3>
                         <div class="row">
-                            <!-- <div class="skill-icon">
-                                <img class="m-3" src="./assets/nodejs.svg" title="Node JS" alt="Node JS" width="45"/>
-                            </div> -->
-                            <!-- <div class="skill-icon">
-                                <img class="m-3" src="./assets/sass.svg" title="Sass" alt="Sass" width="45"/>
-                            </div> -->
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/git.svg" title="Git" alt="Git" width="45"/>
+                                <img class="m-3" src="./assets/skills/sql-server.svg" title="SQL Server" alt="SQL Server" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/github_2.svg" title="GitHub" alt="GitHub" width="45"/>
+                                <img class="m-3" src="./assets/skills/mysql.svg" title="MySQL" alt="MySQL" width="70"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/figma.svg" title="Figma" alt="Figma" width="45"/>
+                                <img class="m-3" src="./assets/skills/mongodb.svg" title="MongoDB" alt="MongoDB" width="55"/>
                             </div>
-                            <div class="skill-icon">
-                                <img class="m-3" src="./assets/powerbi.svg" title="Power BI" alt="Power BI" width="45"/>
-                            </div>
-                            <!-- <div class="skill-icon">
-                                <img class="m-3" src="./assets/docker.svg" title="Docker" alt="Docker" width="45"/>
-                            </div> -->
                         </div>
                     </div>
+                    
                     <div class="content mt-2">
-                        <h4 class="title-skills">DataBases</h4>
+                        <h3 class="title-skills">Tools & Platforms.</h3>
                         <div class="row">
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/mysql.svg" title="MySQL" alt="MySQL" width="70"/>
+                                <img class="m-3" src="./assets/skills/git.svg" title="Git" alt="Git" width="45" height="45"/>
                             </div>
                             <div class="skill-icon">
-                                <img class="m-3" src="./assets/mongodb.svg" title="MongoDB" alt="MongoDB" width="55"/>
+                                <img class="m-3" src="./assets/skills/GitHub_light.svg" title="GitHub" alt="GitHub" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/azure-devops.svg" title="Azure DevOps" alt="Azure DevOps" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/figma.svg" title="Figma" alt="Figma" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/power-bi.svg" title="Power BI" alt="Power BI" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/postman.svg" title="Postman" alt="Postman" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/npm.svg" title="NPM" alt="NPM" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/notion.svg" title="Notion" alt="Notion" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/vscode.svg" title="Visual Studio Code" alt="Visual Studio Code" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/visual-studio.svg" title="Visual Studio" alt="Visual Studio" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/netlify.svg" title="Netlify" alt="Netlify" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/jwt.svg" title="JWT" alt="JWT" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/canva.svg" title="Canva" alt="Canva" width="45" height="45"/>
+                            </div>
+                            <div class="skill-icon">
+                                <img class="m-3" src="./assets/skills/Google_Colaboratory.svg" title="Google Colaboratory" alt="Google Colaboratory" width="45" height="45"/>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section id="languages" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path d="M23 26a1 1 0 0 1-1 1H8c-.22 0-.43.2-.61.33L4 30V14a1 1 0 0 1 1-1h3.86v-2H5a3 3 0 0 0-3 3v18a1 1 0 0 0 .56.89a1 1 0 0 0 1-.1L8.71 29h13.44A2.77 2.77 0 0 0 25 26.13V25h-2z" class="clr-i-outline clr-i-outline-path-1" fill="#0092ca"/><path d="M31 4H14a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h13.55l4.78 3.71a1 1 0 0 0 1 .11a1 1 0 0 0 .57-.9V7A3 3 0 0 0 31 4zm1 18.94l-3.5-2.73a1 1 0 0 0-.61-.21H14a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h17a1.1 1.1 0 0 1 1 1.06z" class="clr-i-outline clr-i-outline-path-2" fill="#0092ca"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)"/></svg>
-                        <h3 class="title">Languages</h3>
+                        <i class="mr-1 fa-solid fa-language"></i>
+                        <h2 class="title">Languages</h2>
                     </div>
                     <div class="language">
                         <div class="box-language radial-progressbar">
@@ -188,92 +255,136 @@
                                 <circle class="bar-fill" cx="50" cy="50" r="45"></circle>
                             </svg>
                             <div class="title-language">English - C1</div>
-                            <div class="ml-2 mt-3">Language Centers Network - LCN <br>Medellín, Antioquia</div>
                         </div>
                     </div>
                 </section>
+
                 <section id="education" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path fill="#0092ca" d="M368 350.643l-112 63l-112-63v-66.562l-32-17.778v103.054l144 81l144-81V266.303l-32 17.778v66.562z"/><path fill="#0092ca" d="M256 45.977L32 162.125v27.734L256 314.3l192-106.663V296h32V162.125zm160 142.831l-32 17.777L256 277.7l-128-71.115l-32-17.777l-22.179-12.322L256 82.023l182.179 94.463z"/><rect x="0" y="0" width="512" height="512" fill="rgba(0, 0, 0, 0)"/></svg>
-                        <h3 class="title">Education</h3>
+                        <i class="mr-1 fa-solid fa-user-graduate"></i>
+                        <h2 class="title">Education</h2>
                     </div>
                     <div class="timeline">
                         <div class="education">
                             <div class="education-description">
-                                <h6 class="title-education font-weight-bold">Degree on computer engineering</h6>
-                                <p class="school">Institución Universitaria de Envigado <br>Envigado, Antioquia</p>
-                                <p class="date">02/2021 - Current</p>
+                                <h3 class="title-education font-weight-bold">Degree on Computer Engineering</h3>
+                                <p class="school">Institución Universitaria de Envigado (IUE) <br>Envigado, Antioquia</p>
+                                <p class="date">02/2021 - 08/2025</p>
                             </div>
                             <div class="education-description">
-                                <h6 class="title-education font-weight-bold">Technician on software development</h6>
-                                <p class="school">Servicio Nacional de Aprendizaje <br>Itagüí, Antioquia</p>
+                                <h3 class="title-education font-weight-bold">English Course</h3>
+                                <p class="school">Language Centers Network (LCN Idiomas) <br>Medellín, Antioquia</p>
+                                <p class="date">08/2020 - 05/2024</p>
+                            </div>
+                            <div class="education-description">
+                                <h3 class="title-education font-weight-bold">Software Development Technician</h3>
+                                <p class="school">Servicio Nacional de Aprendizaje (SENA) <br>Itagüí, Antioquia</p>
                                 <p class="date">02/2019 - 11/2020</p>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section id="courses" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path fill="none" d="M4.392 14.054l1.544.893a1 1 0 0 1 .499.866v1.776h1.776c.357 0 .688.19.866.5l.892 1.543l1.543-.893a1.006 1.006 0 0 1 1.001 0l1.545.893l.891-1.543a1 1 0 0 1 .866-.5h1.776v-1.776a1 1 0 0 1 .499-.866l1.544-.893l-.893-1.543a1 1 0 0 1 0-1.001l.893-1.543l-1.544-.893a1 1 0 0 1-.499-.866V6.432h-1.776a.998.998 0 0 1-.866-.5l-.891-1.543l-1.545.892a.998.998 0 0 1-1 0l-1.544-.892l-.892 1.543c-.179.309-.509.5-.866.5H6.435v1.776a1 1 0 0 1-.499.866l-1.544.892l.893 1.542c.18.31.18.692 0 1.001l-.893 1.545z"/><path d="M2.06 14.677a.994.994 0 0 0 .465.607l1.91 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.007 1.007 0 0 0 .866.5a1 1 0 0 0 .501-.134l1.908-1.104l1.91 1.104a1.001 1.001 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1v-2.199l1.91-1.104a1 1 0 0 0 .365-1.366l-1.104-1.909l1.104-1.908a1 1 0 0 0-.365-1.366l-1.91-1.104v-2.2a1 1 0 0 0-1-1h-2.199l-1.103-1.909a1.004 1.004 0 0 0-.607-.466a.993.993 0 0 0-.759.1l-1.91 1.104l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.435a1 1 0 0 0-1 1v2.199l-1.91 1.104a.998.998 0 0 0-.365 1.367l1.104 1.908l-1.104 1.908a.997.997 0 0 0-.1.759zm3.224-3.168l-.892-1.543l1.544-.893a1 1 0 0 0 .499-.866V6.432h1.776c.357 0 .688-.19.866-.5l.892-1.543l1.544.892a.998.998 0 0 0 1 0l1.545-.892l.891 1.543a1 1 0 0 0 .866.5h1.776v1.776a1 1 0 0 0 .499.866l1.544.893l-.893 1.543a1 1 0 0 0 0 1.001l.893 1.543l-1.544.893a1 1 0 0 0-.499.866v1.776h-1.776a.998.998 0 0 0-.866.5l-.891 1.543l-1.545-.893a1 1 0 0 0-1.001 0l-1.543.893l-.892-1.543a1.002 1.002 0 0 0-.866-.5H6.435v-1.776a1 1 0 0 0-.499-.866l-1.544-.893l.893-1.543a1 1 0 0 0-.001-1.002z" fill="#0092ca"/><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg>
-                        <h3 class="title">Courses</h3>
+                        <i class="mr-1 fa-solid fa-certificate"></i>
+                        <h2 class="title">Courses</h2>
                     </div>
                     <div class="timeline">
                         <div class="course">
-                            <div class="course-description mb-4">
-                                <h6 class="title-course font-weight-bold">Curso Profesional de Git y GitHub</h6>
-                                <p class="organization">Platzi</p>
-                                <p class="date">2023</p>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Developing Applications in Angular 19 and ASP.NET Core 9</h3>
+                                <p class="organization">Udemy</p>
+                                <p class="date">07/2025</p>
                             </div>
-                            <div class="course-description mb-4">
-                                <h6 class="title-course font-weight-bold">Curso Definitivo de HTML y CSS</h6>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Practical SQL Course</h3>
                                 <p class="organization">Platzi</p>
-                                <p class="date">2023</p>
+                                <p class="date">04/2025</p>
                             </div>
-                            <div class="course-description mb-4">
-                                <h6 class="title-course font-weight-bold">Curso Práctico de HTML y CSS</h6>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Responsive Design Course: Mobile First Layout</h3>
                                 <p class="organization">Platzi</p>
-                                <p class="date">2023</p>
+                                <p class="date">04/2025</p>
+                            </div>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Angular 14 - The Complete Guide + 15 Projects</h3>
+                                <p class="organization">Udemy</p>
+                                <p class="date">03/2025</p>
+                            </div>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Introduction to Cybersecurity</h3>
+                                <p class="organization">Cisco</p>
+                                <p class="date">08/2024</p>
+                            </div>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">HTML and CSS Master Course</h3>
+                                <p class="organization">Platzi</p>
+                                <p class="date">07/2023</p>
+                            </div>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">Professional Git and GitHub Course</h3>
+                                <p class="organization">Platzi</p>
+                                <p class="date">05/2023</p>
+                            </div>
+                            <div class="course-description">
+                                <h3 class="title-course font-weight-bold">CCNA: Introduction to Networks</h3>
+                                <p class="organization">Cisco</p>
+                                <p class="date">01/2023</p>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section id="interests" class="p-5">
                     <div class="section-header d-inline-flex align-items-center mb-4 animation-grow">
-                        <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path d="M6.813 2.406L5.405 3.812L7.5 5.906L8.906 4.5L6.812 2.406zm18.375 0L23.093 4.5L24.5 5.906l2.094-2.093l-1.407-1.407zM16 3.03c-.33.004-.664.023-1 .064c-.01 0-.02-.002-.03 0c-4.056.465-7.284 3.742-7.845 7.78c-.448 3.25.892 6.197 3.125 8.095a5.238 5.238 0 0 1 1.75 3.03v6h2.28c.348.597.983 1 1.72 1s1.372-.403 1.72-1H20v-4h.094v-1.188c0-1.466.762-2.944 2-4.093C23.75 17.06 25 14.705 25 12c0-4.94-4.066-9.016-9-8.97zm0 2c3.865-.054 7 3.11 7 6.97c0 2.094-.97 3.938-2.313 5.28l.032.032A7.792 7.792 0 0 0 18.279 22h-4.374c-.22-1.714-.955-3.373-2.344-4.563c-1.767-1.5-2.82-3.76-2.468-6.312c.437-3.15 2.993-5.683 6.125-6.03a6.91 6.91 0 0 1 .78-.064zM2 12v2h3v-2H2zm25 0v2h3v-2h-3zM7.5 20.094l-2.094 2.093l1.407 1.407L8.905 21.5L7.5 20.094zm17 0L23.094 21.5l2.093 2.094l1.407-1.407l-2.094-2.093zM14 24h4v2h-4v-2z" fill="#0092ca"/><rect x="0" y="0" width="32" height="32" fill="rgba(0, 0, 0, 0)" /></svg>
-                        <h3 class="title">Interests</h3>
+                        <i class="mr-1 fa-solid fa-lightbulb"></i>
+                        <h2 class="title">Interests</h2>
                     </div>
                     <div class="interests-items row justify-content-stretch">
                         <div class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/book.svg" alt="book" width="45"/>
-                            <span>Reading</span>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bxs-joystick'></i>
+                            </figure>
+                            <span>Video Games</span>
                         </div>
                         <div class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/headphones.svg" alt="headphones" width="45"/>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bx-headphone'></i>
+                            </figure>
                             <span>Music</span>
                         </div>
                         <div class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/meditation.svg" alt="meditation" width="45"/>
-                            <span>Meditate</span>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bx-football'></i>
+                            </figure>
+                            <span>Sports</span>
                         </div>
                         <div class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/movie.svg" alt="movies" width="45"/>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bxs-movie'></i>
+                            </figure>
                             <span>Movies</span>
                         </div>
                         <div class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/atom.svg" alt="atom" width="45"/>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bx-atom'></i>
+                            </figure>
                             <span>Science</span>
                         </div>
                         <div  class="interest col-md-2 col-sm-4 col-6 p-2 text-center align-self-center">
-                            <img class="d-block mb-2 mx-auto" src="./assets/computer.svg" alt="computer" width="45"/>
-                            <span>Technology</span>
+                            <figure class="d-block mb-2 mx-auto">
+                                <i class='bx bxs-camera'></i>
+                            </figure>
+                            <span>Photography</span>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <!-- <script src="./js/curriculum/smoothscroll.js"></script> -->
     <script src="./js/app.js"></script>
 </body>
 </html>
